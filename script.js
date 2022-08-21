@@ -40,7 +40,8 @@ if(navigator.geolocation)//checks if object available or not
         const ss=new Date(sunset * 1000);
         const {speed}=data.wind;
              loc.textContent=`${place}`;
-             cntry.textContent='['+`${country}`+']';
+            const regionNamesInEnglish = new Intl.DisplayNames(['en'], { type: 'region' });
+         cntry.textContent=','+regionNamesInEnglish.of(`${country}`);
              iconimg.src=iconurl;
             desc.textContent=`${description}`;
             temperature.textContent=`${temp}`+'°C';
@@ -88,7 +89,8 @@ function search(){
     const ss=new Date(sunset * 1000);
     const {speed}=data.wind;
          loc.textContent=`${place}`;
-         cntry.textContent='['+`${country}`+']';
+         const regionNamesInEnglish = new Intl.DisplayNames(['en'], { type: 'region' });
+         cntry.textContent=','+regionNamesInEnglish.of(`${country}`);
          iconimg.src=iconurl;
         desc.textContent=`${description}`;
         temperature.textContent=`${temp}`+'°C';
