@@ -90,5 +90,23 @@ button{
     }
     .disp{
         margin-top: 40%;
+        margin-left: 10%;
+        margin-right:10%;
     }
-} 
+    #location,#country{
+        font-size: 6.5vw; 
+    }
+    #temperature,#fahtemp{
+        font-size: 8vw; 
+    }
+    #des{
+        font-size:6vw;
+        color:white;
+   text-shadow: 2px 2px 2px black;
+    }
+    .disp{
+        font-size:5vw;
+        color:white;
+   text-shadow: 2px 2px 3px black;  
+    }
+}
