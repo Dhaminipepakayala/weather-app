@@ -44,7 +44,7 @@ input[type="text"]
     margin-right: 25%;
     padding:2% 2% 2% 2%;
     font-weight: bold;
-    text-shadow: 2px 2px 1px wheat; 
+    text-shadow: 1px 1px 3px wheat; 
    font-size: 22px;
  border-radius: 4px;
  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(121, 121, 121);
@@ -73,4 +73,12 @@ button{
     font-size: 20px;
     text-shadow: 2px 2px 1px black;
     font-weight: bold;
+}
+@media (max-width:600px) {
+    .bg{
+        background:url(bg1.jpg) ;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
