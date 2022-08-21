@@ -9,16 +9,18 @@ body,html{
     height:100vh;
     max-width:100%;
     background:url(bg.jpeg) ;
+
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-
+ 
 
 .search{
     height:10%;
     float:right;
     padding: 5% 15% 0 0;
+    
    
 }
 
@@ -33,35 +35,39 @@ input[type="text"]
     font-style: italic;
     text-shadow:2px 2px 1px black;
     font-weight:bold;
+    
 }
+
 .disp{
-    min-height:50vh;
+    min-height:20vh;
     background:rgba(255,255,255,.1);
     color:rgb(30, 29, 29);
-    width:auto;
-    margin-top: 12%;
+    
+    margin-top: 15%;
     margin-left: 23%;
     margin-right: 25%;
     padding:2% 2% 2% 2%;
     font-weight: bold;
-    text-shadow: 1px 1px 3px wheat; 
-   font-size: 22px;
+text-shadow: 1px 1px 3px wheat;
+    font-size: 2.2vw;
  border-radius: 4px;
- box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(121, 121, 121);
+ box-shadow: 0.5px 0.5px  rgb(121, 121, 121);
    text-align: center;
+   
 }
+
 #location,#country{
-    font-size: 35px;
+    font-size: 3.5vw;
    color:white;
    text-shadow: 2px 2px 1.5px black; 
 }
 #temperature,#fahtemp{
-    font-size:50px;
+    font-size:5vw;
   color:white;
   text-shadow: 2px 2px 1.5px black; 
 }
 #des{
-    font-size:30px;
+    font-size:3vw;
 }
 button{
     outline:none;
@@ -73,6 +79,7 @@ button{
     font-size: 20px;
     text-shadow: 2px 2px 1px black;
     font-weight: bold;
+
 }
 @media (max-width:600px) {
     .bg{
@@ -81,4 +88,7 @@ button{
         background-size: cover;
         background-repeat: no-repeat;
     }
-}
+    .disp{
+        margin-top: 40%;
+    }
+} 
