@@ -31,7 +31,7 @@ input[type="text"]
     outline:none;
     border-bottom: 2px solid gold;
     color:white;
-    font-size: 25px;
+    font-size: 2.5vw;
     font-style: italic;
     text-shadow:2px 2px 1px black;
     font-weight:bold;
@@ -43,13 +43,13 @@ input[type="text"]
     background:rgba(255,255,255,.1);
     color:rgb(30, 29, 29);
     
-    margin-top: 15%;
+    margin-top: 17%;
     margin-left: 23%;
     margin-right: 25%;
     padding:2% 2% 2% 2%;
     font-weight: bold;
 text-shadow: 1px 1px 3px wheat;
-    font-size: 2.2vw;
+    font-size: 2vw;
  border-radius: 4px;
  box-shadow: 0.5px 0.5px  rgb(121, 121, 121);
    text-align: center;
@@ -57,7 +57,7 @@ text-shadow: 1px 1px 3px wheat;
 }
 
 #location,#country{
-    font-size: 3.5vw;
+    font-size: 3vw;
    color:white;
    text-shadow: 2px 2px 1.5px black; 
 }
@@ -67,7 +67,7 @@ text-shadow: 1px 1px 3px wheat;
   text-shadow: 2px 2px 1.5px black; 
 }
 #des{
-    font-size:3vw;
+    font-size:2.5vw;
 }
 button{
     outline:none;
@@ -76,12 +76,21 @@ button{
 }
 #msg{
     color:red;
-    font-size: 20px;
+    font-size: 2.3vw;
     text-shadow: 2px 2px 1px black;
     font-weight: bold;
 
 }
 @media (max-width:600px) {
+    
+input[type="text"]
+{
+    font-size: 5vw;
+}
+
+#msg{
+    font-size: 4vw;
+}
     .bg{
         background:url(bg1.jpg) ;
 
@@ -94,7 +103,7 @@ button{
         margin-right:10%;
     }
     #location,#country{
-        font-size: 7vw; 
+        font-size: 6.5vw; 
     }
     #temperature,#fahtemp{
         font-size: 8vw; 
@@ -109,4 +118,4 @@ button{
         color:white;
    text-shadow: 2px 2px 3px black;  
     }
-}
+} 
